@@ -1,0 +1,12 @@
+/* Ejercicio: Arrays
+Fecha: 24 de sept 2025
+Autor: JeffersonAO
+*/
+
+let primerArray = [1,2,3,4,5,];
+console.log("primer array:");
+console.log(primer array:);
+primerArray.push(6);
+
+console.log(primer array después del push:);
+console.log(primer array:);

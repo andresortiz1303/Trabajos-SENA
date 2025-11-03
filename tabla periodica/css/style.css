@@ -1,0 +1,393 @@
+.titulo{
+	font-size:80;
+	font-family: Comic Sans MS;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+
+#principal {
+   	width: 1000px;
+   	font-family: Comic Sans MS;
+	font-size: 14;
+   	display: grid;
+   	grid-template-columns: repeat(18, 10fr);
+
+	margin: 100 300;
+}
+img{
+	display: block;
+	margin-top: 20px;    
+        margin-bottom: -310px; ;
+	margin-left: 45rem;
+	margin-right: auto;
+	width: 500px;
+	height: 300px;
+	border-radius: 10px
+}
+.imagen2{
+	display: block;
+	margin-top: auto;    
+        margin-bottom: -170; ;
+	margin-left: 1400;
+	margin-right: 700;
+	width: 450px;
+	height: 170px;
+	border-radius: 15px;
+}
+.tabla2 {
+	display: block;
+	float: left;
+	width: 90px;
+	height: 90px;
+	border: 1px solid #FFF;
+	background-color: #009987;
+	display: grid;
+	grid-template-columns: repeat(18, 10fr);
+	margin: 100 300;
+	margin:-10rem 300;;
+.lant{
+	background-color: #C494F7;
+}
+.acti{
+	background-color: #94C9F7;
+}
+}
+.simbolo{
+	margin:0;
+	text-align: center;
+}
+.masa{
+	margin:0;
+}
+.peso{
+	margin:0;
+}
+.secundario {
+    display: block;
+    float: left;
+    width: 90px;
+    height: 90px;
+    border: 1px solid #FFF;
+    background-color: #009987;
+	border-radius: 9px
+	
+}
+.guia{
+    display: block;
+    float: left;
+    width: 90px;
+    height: 90px;
+    border: 1px solid #FFF;
+    background-color: #ea899a;
+
+
+}
+.info{
+	margin:0;	
+}
+
+
+.datos {
+color: #fff;
+border:none;
+    
+}
+
+
+.vacias{
+	background-color:rgba(0, 0, 0, 0);
+	border:none;
+}
+
+.elementos{
+	  margin: 40 10;
+	  text-align: center;
+}
+.fondo{
+	  margin: 0, auto;
+	
+}
+.fondo2{
+	background-image: url(../img/fondo.jpeg);
+	height:600px;
+	border-radius: 15px
+}
+.he{
+	background-color: #ea899a;
+
+}
+.li{
+	background-color:#9D00FF;
+}
+.be{
+	background-color:#FFA800;
+}
+.b{
+	background-color:#FFA800;
+}
+.c{
+	background-color: #00CCFF;
+}
+.n{
+	background-color: #00CCFF;
+}
+.o{
+	background-color: #00CCFF;
+}
+.f{
+	background-color: #8B008B;
+}
+.ne{
+	background-color: #ea899a;
+}
+.na{
+	background-color:#9D00FF;
+}
+.mg{
+	background-color:#FFA800;
+}
+.al{
+	background-color:#0BDA51;
+}
+.si{
+	background-color:#FFA800;
+}
+.p{
+	background-color: #00CCFF;
+}
+.s{
+	background-color: #00CCFF;
+}
+.cl{
+	background-color: #8B008B;
+}
+.ar{
+	background-color: #ea899a;
+}
+.k{
+	background-color:#9D00FF;
+}
+.ca{
+	background-color:#FFA800;
+}
+.sc{
+	background-color:#FFDE21;
+}
+.ti{
+	background-color:#FFDE21;
+}
+.v{
+	background-color:#FFDE21;
+}
+.cr{
+	background-color:#FFDE21;
+}
+.fe{
+	background-color:#FFDE21;
+}
+.co{
+	background-color:#FFDE21;
+}
+.ni{
+	background-color:#FFDE21;
+}
+.cu{
+	background-color:#FFDE21;
+}
+.mn{
+	background-color:#FFDE21;
+}
+.zn{
+	background-color:#FFDE21;
+}
+.ga{
+	background-color:#0BDA51;
+}
+.in{
+	background-color:#0BDA51;
+}
+.sn{
+	background-color:#0BDA51;
+}
+.tl{
+	background-color:#0BDA51;
+}
+.pb{
+	background-color:#0BDA51;
+}
+.bi{
+	background-color:#0BDA51;
+}
+.uut{
+	background-color:#0BDA51;
+}
+.fi{
+	background-color:#0BDA51;
+}
+.uup{
+	background-color:#0BDA51;
+}
+.lv{
+	background-color:#0BDA51;
+}
+.br{
+	background-color: #8B008B;
+}
+.i{
+	background-color: #8B008B;
+}
+.at{
+	background-color: #8B008B;
+}
+.uus{
+	background-color: #8B008B;
+}
+.uuo{
+	background-color: #ea899a;
+}
+.rn{
+	background-color: #ea899a;
+}
+.xe{
+	background-color: #ea899a;
+}
+.kr{
+	background-color: #ea899a;
+}
+.se{
+	background-color: #00CCFF;
+}
+.as{
+	background-color:#FFA800;
+}
+.ge{
+	background-color:#FFA800;
+}
+.sb{
+	background-color:#FFA800;
+}
+.te{
+	background-color:#FFA800;
+}
+.po{
+	background-color:#FFA800;
+}
+.rb{
+	background-color:#9D00FF;
+}
+.cs{
+	background-color:#9D00FF;
+}
+.fr{
+	background-color:#9D00FF;
+}
+.uue{
+	background-color:#9D00FF;
+}
+.sr{
+	background-color:#FFA800;
+}
+.ba{
+	background-color:#FFA800;
+}
+.ra{
+	background-color:#FFA800;
+}
+.ubn{
+	background-color:#FFA800;
+}
+.y{
+	background-color:#FFDE21;
+}
+.zr{
+	background-color:#FFDE21;
+}
+.nb{
+	background-color:#FFDE21;
+}
+.mo{
+	background-color:#FFDE21;
+}
+.tc{
+	background-color:#FFDE21;
+}
+.ru{
+	background-color:#FFDE21;
+}
+.rh{
+	background-color:#FFDE21;
+}
+.pd{
+	background-color:#FFDE21;
+}
+.ag{
+	background-color:#FFDE21;
+}
+.cd{
+	background-color:#FFDE21;
+}
+.la{
+	background-color:#C494F7
+}
+.hf{
+	background-color:#FFDE21;
+}
+.ta{
+	background-color:#FFDE21;
+}
+.w{
+	background-color:#FFDE21;
+}
+.re{
+	background-color:#FFDE21;
+}
+.os{
+	background-color:#FFDE21;
+}
+.ir{
+	background-color:#FFDE21;
+}
+.pt{
+	background-color:#FFDE21;
+}
+.au{
+	background-color:#FFDE21;
+}
+.hg{
+	background-color:#FFDE21;
+}
+.ac{
+	background-color:#94C9F7;
+}
+.ubu{
+	background-color:#94C9F7;
+}
+.rf{
+	background-color:#FFDE21;
+}
+.db{
+	background-color:#FFDE21;
+}
+.sg{
+	background-color:#FFDE21;
+}
+.bh{
+	background-color:#FFDE21;
+}
+.hs{
+	background-color:#FFDE21;
+}
+.mt{
+	background-color:#FFDE21;
+}
+.ds{
+	background-color:#FFDE21;
+}
+.rg{
+	background-color:#FFDE21;
+}
+.cn{
+	background-color:#FFDE21;
+}

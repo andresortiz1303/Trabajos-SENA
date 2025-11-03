@@ -1,0 +1,150 @@
+body{
+    background-color: #03233f;
+    background: url(../img/fondo.jpeg);
+}
+.principal{
+   	display: grid !important;
+   	grid-template-columns: repeat(18, 10fr) !important;
+   	grid-template-rows: repeat(7, 10fr) !important;   
+	gap: 5px 5px !important;          
+	width: 1000px;
+   	font-family: Comic Sans MS;
+	font-size: 14;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    margin-left: 300px;
+	margin-right: 400px;
+	width: 500px;
+	height: 300px;
+    /* border-radius: 20px; */
+
+}
+.secundario {
+    display: block ;
+    float: left;
+    /* width: 90px ;
+    height: 90px ; */
+    border: 19px solid #ffffff;
+    background-color: #009987;
+	
+}
+.element {
+            border: 1px solid rgba(0,0,0,0.1);
+            /* border-radius: 20px; */
+            /* padding: 8px 4px; */
+            text-align: center;
+            margin: 0;
+            /* min-height: 80px; */
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            cursor: pointer;
+            position: relative;
+            border-radius: 20px;
+            
+          
+        }
+.element:hover {
+            transform: scale(1.1);
+            z-index: 1;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+            
+        }
+.vacias{
+	background-color:rgba(0, 0, 0, 0);
+	border:none;
+}
+.simbolo{
+	margin:0;
+	text-align: center;
+    font-size: 18px
+}
+.info{
+	margin:0;	
+}
+.config{
+    font-size: 11px;
+}
+.accordion-button::after {
+    display: none;
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.accordion-body {
+    padding: none;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--bs-heading-color);
+}
+.accordion-item {
+    
+    border: none
+}
+.img{
+    display: block;
+	margin-top: 20px;    
+    margin-bottom: -310px;
+	margin-left: 45rem;
+	margin-right: auto;
+	width: 500px;
+	height: 300px;
+	border-radius: 10px
+}
+.titulo{
+	font-size:80;
+	font-family: Comic Sans MS;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.tamano{
+    margin-right: auto;
+    margin-left: auto;
+    width: 350px;
+	height: 200px;
+}
+.carrusel{
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.nometales{
+    background-color: rgba(21, 255, 0, 0.747);
+    border-radius: 20px;
+}
+.halogenos{
+    background-color: rgb(170, 89, 224);
+    border-radius: 20px;
+}
+.alcalinosterreos{
+    background-color: rgb(238, 167, 13);
+    border-radius: 20px;
+}
+.metalesdetransicion{
+    background-color: rgb(241, 206, 5);
+    border-radius: 20px;
+}
+.lantanidos{
+    background-color: rgba(231, 135, 255, 0.89);
+    border-radius: 20px;
+}
+.actinidos{
+    background-color: rgb(0, 162, 255);
+    border-radius: 20px;
+}
+.gasesnobles{
+    background-color: rgba(161, 10, 116, 0.918);
+    border-radius: 20px;
+}
+.otrosnometales{
+    background-color: rgba(64, 224, 245, 0.842);
+    border-radius: 20px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculo de par/impar</title>
+	<script src="js/parimpar.js"></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<script src="bootstrap/js/bootstrap.js"></script>
+   <link rel="stylesheet" href="css/styles.css">   
+	
+</head>
+<body>
+
+   <div class="container my-4 p-4 bg-light ">
+      <h1 class="text-center">Tablas de multiplicar del 1 al 5 con conteo de pares e impares</h1>
+      <hr>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mi-modal"
+         onclick="parImpar()">tabla de 1 al 5</button>
+      </form>
+   </div>
+   <div class="parent">
+      <div id="output" class="border p-3 secundario" style="height: 400px;">
+         <h4>Tabla del 1:</h4>
+
+         <div id="table-1"></div>
+
+      </div>
+      <div id="output" class="border p-3 secundario div1" style="height: 400px;">
+         <h4>Tabla del 2:</h4>
+
+         <div id="table-2"></div>
+
+      </div>
+
+      <div id="table-3" class="border p-3 secundario div2 " style="height: 400px;">
+         <h4>Tabla del 3:</h4>
+         <div id="table-3"></div>
+      </div>
+
+      <div id="table-4" class="border p-3 secundario div3" style="height: 400px;">
+         <h4>Tabla del 4:</h4>
+         <div id="table-4"></div>
+      </div>
+      <div id="table-5" class="border p-3 secundario div4" style="height: 400px;">
+         <h4>Tabla del 5:</h4>
+         <div id="table-5"></div>
+      </div>
+      <div id="resultado" class="border p-3 secundario div5" style="height: 400px;">
+         <h4>Conteo de pares e impares:</h4>
+         <p id="cont1"></p>
+         <p id="cont2"></p>
+      </div>
+   </div>
+</body>
+</html>

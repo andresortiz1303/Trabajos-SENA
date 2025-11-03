@@ -1,0 +1,7 @@
+<html>
+	<head>
+		<title>Calculo de la Fuerza</title>
+		<script src="js/tablas.js"></script>
+	</head>
+
+</html>

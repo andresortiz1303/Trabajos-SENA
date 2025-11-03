@@ -1,0 +1,21 @@
+/* Ejercicio:Diagrama de tablas del 2 al 12 hsata el multiplo 10
+Fecha: 24 de sept 2025
+Autor: JeffersonAO
+*/
+
+let tab=2;
+let tabF=12;
+let num=0;
+let cont;
+let mult;
+let result1;
+let result2;
+let result3;
+
+while (tab < tabF){
+
+	if (tab < tabF){
+	cont = cont + 1;
+	mult = cont * tab;
+	
+	console.log(tab+ "x" +cont+ "=" +mult);

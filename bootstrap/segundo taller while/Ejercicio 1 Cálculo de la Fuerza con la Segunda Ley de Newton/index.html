@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculos de area</title>
+	<script src="js/fuerza.js"></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<script src="bootstrap/js/bootstrap.js"></script>
+	
+</head>
+<body>
+	<div class="container mt-5">
+		<h2>Calculadora de Fuerza con la Segunda Ley de Newton</h2>
+
+		<div class="mb-3">
+			<label for="mass" class="form-label">Masa (kg)</label>
+			<input type="number" id="mass" class="form-control" placeholder="Ingrese la masa" min="0" step="any" />
+		</div>
+
+		<div class="mb-3">
+			<label for="acceleration" class="form-label">Aceleración (m/s²)</label>
+			<input type="number" id="acceleration" class="form-control" placeholder="Ingrese la aceleración" min="0"
+				step="any" />
+		</div>
+
+		<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mi-modal"
+			onclick="forceTotal()">Calcular Fuerza</button>
+
+		<div class="mt-4">
+			<h4>Resultados:</h4>
+			<div id="force" class="alert alert-primary" role="alert">
+
+			</div>
+		</div>
+
+		<div class="mt-4">
+			<h4>Resultados:</h4>
+			<div id="total" class="alert alert-primary" role="alert">
+
+			</div>
+		</div>
+
+
+		<!-- <div class="modal fade" id="mi-modal">
+			<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">CALCULO DE AREAS</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+
+						<div id="result" class="alert alert-primary font" role="alert">
+
+						</div>
+
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+					</div>
+					...
+				</div>
+			</div>
+		</div> -->
+
+
+
+	</div>
+</body>
+</html>

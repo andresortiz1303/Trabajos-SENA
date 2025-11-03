@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculos de area</title>
+	<script src="js/resultantforce.js"></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<script src="bootstrap/js/bootstrap.js"></script>
+	
+</head>
+<body>
+
+
+	<div class="container mt-5">
+		<h2>Calculadora de Fuerza Resultante</h2>
+	
+		<div class="mb-3">
+			<label for="num" class="form-label">Número de cálculos</label>
+			<input type="number" id="num" class="form-control" placeholder="Ingrese número de cálculos" min="1" step="1" />
+		</div>
+	
+		<div class="mb-3">
+			<label for="mass" class="form-label">Masa (kg)</label>
+			<input type="number" id="mass" class="form-control" placeholder="Ingrese la masa" min="0" step="any" />
+		</div>
+	
+		<button type="button" class="btn btn-primary" onclick="resultantForce()">Calcular Fuerzas</button>
+	
+	<div class="mt-4">
+		<h4>Fuerza Resultante:</h4>
+		<div id="force" class="alert alert-primary" role="alert">
+			Aquí se mostrarán los resultados
+		</div>
+	</div>
+	
+	
+	
+	</div>
+</body>
+</html>

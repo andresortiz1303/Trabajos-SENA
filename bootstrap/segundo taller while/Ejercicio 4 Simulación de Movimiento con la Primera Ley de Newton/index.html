@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculo de movimiento</title>
+	<script src="js/movimiento.js"></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<script src="bootstrap/js/bootstrap.js"></script>
+	
+</head>
+<body>
+	<div class="container">
+		<h1 class="text-center mt-4">Cálculo de Movimiento</h1>
+		<form id="movimientoForm" class="mt-4">
+	
+			<div class="mb-3">
+				<label for="forceApplied" class="form-label">Fuerza Aplicada (N):</label>
+				<input type="number" class="form-control" id="forceApplied" required>
+			</div>
+	
+			<div class="mb-3">
+				<label for="mass" class="form-label">Masa (kg):</label>
+				<input type="number" class="form-control" id="mass" required>
+			</div>
+	
+			<button type="button" class="btn btn-primary" onclick="motion()">Calcular Velocidad</button>
+		</form>
+	
+		<div id="resultado" class="mt-4"></div>
+
+		<div id="forceApplied" class="alert alert-primary font" role="alert">
+			<div id="acceleration" class="mt-4"></div>
+			<div id="velocity" class="mt-4"></div>
+	
+		</div>
+	
+	
+	
+	</div>
+</body>
+</html>

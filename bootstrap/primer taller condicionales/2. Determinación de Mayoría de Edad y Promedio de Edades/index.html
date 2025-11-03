@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculo de promedio de edades</title>
+	<script src="js/edades.js"></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<script src="bootstrap/js/bootstrap.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div class="container caja">
+		<h2>PROMEDIO DE EDADES</h2>
+		<div id="container" class="container">
+			<div id="row" class="row">
+				<div id="col" class="col">
+					<p>Calculo de promedio de edades</p>
+				</div>
+				<div class="mb-3">
+					<label for="age1" class="form-label">Primer edad</label>
+					<input type="number" id="age1" class="form-control" placeholder="primer edad">
+				</div>
+				
+
+				<div>
+					<button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mi-modal"
+						onclick="edad()">Calcular promedio</button>
+				</div>
+
+				
+
+				<!-- Vertically centered scrollable modal -->
+				<div class="modal fade" id="mi-modal">
+					<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">CALCULO DE PROMEDIO</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<div id="result" class="alert alert-primary font" role="alert">
+									result
+								</div>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+							</div>
+							...
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

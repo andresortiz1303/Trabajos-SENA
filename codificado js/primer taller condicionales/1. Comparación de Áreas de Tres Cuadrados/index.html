@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculos de area</title>
+	<script src="js/area.js"></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<script src="bootstrap/js/bootstrap.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="principal">
+
+	<div>
+		<h2>Calculos de area</h2>
+		<div id="container" class="container">
+			<div id="row" class="row">
+				<div id="col" class="col">
+					<p>Calculo de areas de tres cuadrados</p>
+				</div>
+				<div class="mb-3">
+					<label for="lado1" class="form-label">Ingrese primer lado</label>
+					<input type="number" id="lado1" class="form-control" placeholder="primer lado">
+				</div>
+				<div class="mb-3">
+					<label for="lado2" class="form-label">Ingrese segundo lado</label>
+					<input type="number" id="lado2" class="form-control" placeholder="segundo lado">
+				</div>
+				<div class="mb-3">
+					<label for="lado3" class="form-label">Ingrese tercer lado</label>
+					<input type="number" id="lado3" class="form-control" placeholder="tercer lado">
+				</div>
+
+
+
+				<div>
+					<button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mi-modal"
+						onclick="calculo()">Operacion</button>
+				</div>
+
+
+				<!-- Vertically centered scrollable modal -->
+				<div class="modal fade" id="mi-modal">
+					<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">CALCULO DE AREAS</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+
+								<div id="result" class="alert alert-primary font" role="alert">
+									Result
+									comparacion
+								</div>
+
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+							</div>
+							...
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

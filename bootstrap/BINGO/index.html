@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo con Bootstrap</title>
+
+    <!-- Bootstrap CSS -->
+   <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+   <link href="bootstrap/js/bootstrap.js" rel="stylesheet">
+    <script src="js/bingo.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+
+
+    
+</head>
+<body class="bg-light text-center p-4">
+
+    <div class="container">
+        <h1 class="mb-3 text-primary">Bingo</h1>
+        
+
+        <button id="nuevoCartonBtn" class="btn btn-primary mb-4">
+            Nuevo Cartón
+        </button>
+
+        <div id="cartonContainer"></div>
+    </div>
+
+     <button type="button" class="btn btn-secondary" onclick="sacarBalota()">Sacar balota</button>
+
+       <div id="resultado"></div>
+    
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculos de Fuerza neta</title>
+	<script src="js/netforce.js"></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<script src="bootstrap/js/bootstrap.js"></script>
+	
+</head>
+<body>
+	<div class="container">
+		<h1>Calculo de la Fuerza neta</h1>
+		<form>
+			<div class="mb-3">
+				<label for="num" class="form-label">fuerza neta:</label>
+				<input type="number" class="form-control" id="num" required>
+			</div>
+			<button type="button" class="btn btn-primary" onclick="netForceCalculator()">Calcular</button>
+
+			<div class="mt-4">
+				<h4>Fuerza neta:</h4>
+				<div id="forceApplied" class="alert alert-primary" role="alert">
+					resultado: 
+					
+				</div>
+		</form>
+	</div>
+</body>
+</html>

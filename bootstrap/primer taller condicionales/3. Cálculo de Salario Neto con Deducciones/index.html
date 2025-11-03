@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculos de area</title>
+	<script src="js/netsalary.js"></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<script src="bootstrap/js/bootstrap.js"></script>
+
+	<!-- <link rel="stylesheet" href="css/style.css"> -->
+</head>
+<body>
+
+	<div class="container caja">
+		<h2>Calculo de salario neto</h2>
+		<div id="container" class="container">
+			<div id="row" class="row">
+				<div id="col" class="col">
+					<p>Calculo de salario</p>
+				</div>
+				<div class="mb-3">
+					<label for="day" class="form-label">Ingrese cantidad de días trabajados</label>
+					<input type="number" id="day" class="form-control" placeholder="Ingrese numero dias">
+				</div>
+
+				
+	
+
+
+				<div class="mb-3">
+					<button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mi-modal" onclick="totalSalario()">Calcular salario</button>
+				</div>
+
+
+				<!-- Vertically centered scrollable modal -->
+				<div class="modal fade" id="mi-modal">
+					<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">CALCULO DE SALARIO</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+											
+				<div id="discount" class="alert alert-warning" role="alert">
+      Descuentos: 
+    </div>
+	<div id="netSalary" class="alert alert-primary" role="alert">
+      Salario neto:
+    </div>
+								
+
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+							</div>
+							...
+						</div>
+					</div>
+				</div> 
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

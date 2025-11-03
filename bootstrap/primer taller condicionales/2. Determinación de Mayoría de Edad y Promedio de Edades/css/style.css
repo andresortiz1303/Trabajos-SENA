@@ -1,0 +1,15 @@
+.font{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:start;
+}
+.form-control {
+   display:block;
+    width: 30% ;
+   
+}
+#principal {
+    align-items: center ;
+    padding: 100px;
+    margin-left: 500px;
+}

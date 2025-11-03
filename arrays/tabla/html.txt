@@ -1,0 +1,31 @@
+<html>
+JavaScript es un lenguaje de programación interpretado
+Todo lo que se abre se cierra
+
+Nombrar variables:
+1. var nameVariable
+2. let nameVariable
+3. conts nameVariable
+
+//comentario de una sola linea
+/* comentarios de mas de una linea
+Linea 2
+Linea 3
+*/
+
+si en el HTML escribimos código JS el debe estar e medio de las siguientes etiquetas
+<script>
+   // code JS
+<script>
+
+estructura de carpeta
+|->numeroficha
+|---->ejerciciosjs
+|------>nombreejercicios
+|-------->ccs (carpeta)
+|-------->img (carpeta)
+|-------->js (carpeta)
+|----------index.html (archivo)
+
+-
+</html>

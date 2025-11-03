@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculo de plano inclinado</title>
+	<script src="js/planeinclined.js"></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<script src="bootstrap/js/bootstrap.js"></script>
+	
+</head>
+<body>
+	<div class="container">
+		<h1>Calculo de la Fuerza en un Plano Inclinado</h1>
+		<form>
+			<div class="mb-3">
+				<label for="num" class="form-label">Numero de Calculos:</label>
+				<input type="number" class="form-control" id="num" required>
+			</div>
+			<div class="mb-3">
+				<label for="mass" class="form-label">Masa (kg):</label>
+				<input type="number" class="form-control" id="mass" required>
+			</div>
+			<div class="mb-3">
+				<label for="angleRange" class="form-label">Angulo del Plano (grados):</label>
+				<input type="number" step="0.01" class="form-control" id="angleRange" required>
+			</div>
+			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mi-modal" onclick="planeInclined()">Calcular Fuerza en el Plano Inclinado</button>
+		</form>
+<div class="modal fade" id="mi-modal">
+					<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">CALCULO DE PLANOS INCLINADOS</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+
+								<div id="fParalela" class="alert alert-primary font" role="alert">
+									Resultados:
+								</div>
+
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+							</div>
+							...
+						</div>
+					</div>
+				</div>
+	
+</body>
+</html>
