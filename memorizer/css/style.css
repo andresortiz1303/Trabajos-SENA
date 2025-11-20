@@ -1,21 +1,22 @@
 .fondo {
+  font-family: "Comic Sans MS", cursive, sans-serif;
     background-image: url(../img/fondo2.jpeg);
-    background-position:  center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-     /* font-weight: bold;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;  */
+
     
- 
     
-}
+   background-size: cover; /* Cubre toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center center; /* Centra la imagen */
+    height: 60vh; /* Asegura que el fondo cubra toda la altura de la ventana */
+  }
+    
+
 .container {
+  
   display: flex;
   gap: 20px;
   text-align: center;
-;
+  
 }
 
 
@@ -108,3 +109,47 @@
     -webkit-text-stroke-color: black; 
 }
 
+/* // OPCIONES */
+.configuracion{
+    font-size: 80px;
+    color: white;
+    border: #000000;
+    font-weight: bold;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+  text-align: center;
+}
+.menu{
+  display: block;
+    font-size: 40px;
+    color: white;
+    border: #000000;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    background-color: #c7050596;
+    border-radius: 30px;
+   
+}
+.lista{
+    font-size: 25px; 
+    color: rgb(255, 255, 255);
+    border: #000000;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    background-color: rgb(15, 113, 179);
+    border-radius: 30px;
+}
+.contenedor-opciones{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 30px;
+  justify-content: space-evenly;
+}
+.jugador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
