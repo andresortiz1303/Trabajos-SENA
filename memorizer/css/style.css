@@ -23,21 +23,24 @@
   width: 500px;
   height: 500px;
   flex-grow:1;
-  background-color: red;
+  
+}
+.delfin {
+    width: 800px;
+    height: 1000px;
+    margin-top: auto auto;
 }
 .correo {
     background-color: #0ed7fa73;
-    width: 300px;
+    width: 400px;
     height: 40px;
     border-radius: 30px;
     border: 2px solid #000000;
     padding: 10px;
-    font-size: 16px;
+    font-size: 25px;
     margin-bottom: 20px;
-     font-weight: bold !important;
-    -webkit-text-stroke-width: none !important;
-    -webkit-text-stroke-color: none !important; 
-   
+    font-family: comic sans ms;
+     
 }
 
 .item:nth-child(2) {
@@ -48,13 +51,15 @@
 }
 .email{
     background-color: #0ed7fa73;
-    width: 300px;
+    width: 400px;
     height: 40px;
     border-radius: 30px;
     border: 2px solid #000000;
     padding: 10px;
-    font-size: 16px;
+    font-size: 25px;
     margin-bottom: 20px;
+    font-family: comic sans ms;
+    
 }
  
 .item:nth-child(3) {
@@ -84,7 +89,7 @@
 }
 
 .boton-sombra-suave {
-  box-shadow: 10px 8px 6px rgba(0, 0, 0, 0.4);
+  box-shadow: 10px 8px 6px rgba(6, 39, 100, 0.897);
 }
 .texto {
     font-size: 40px;
